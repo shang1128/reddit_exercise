@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+width: 70%;
+// border: 1px solid red;
+margin: 0 auto;
+}
+.divdisplay{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+    // border: 1px solid green;
+}
+.post{
+    width: 50%;
+    // border: 1px solid green;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+
+    img{
+        width: 450px;
+        height: 330px;
+        margin: 30px 0;
+        object-fit: contain;
+    }
+   
+}
+hr{
+    margin-top: 10px;
+    width: 100%;
+    border-top: 1px solid #d0d0d0;
+}
