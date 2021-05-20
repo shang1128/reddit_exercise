@@ -1,7 +1,5 @@
 const container = document.querySelector('.container');
 
-
-
         fetch('https://www.reddit.com/r/BlackPink/hot.json')
             .then(function (resp) {
                 return resp.json();
@@ -14,7 +12,6 @@ const container = document.querySelector('.container');
                     const title = document.createElement('h3');
                     const img = document.createElement('img');
                     const hr = document.createElement('hr');
-                    const vid = document.createElement('video');
 
                     divdisplay.classList.add('divdisplay');
                     post.classList.add('post');
